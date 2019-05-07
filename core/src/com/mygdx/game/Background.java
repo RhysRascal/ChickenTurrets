@@ -14,4 +14,7 @@ public class Background {
         this.image = image;
     }
 
+
+
+
 }
