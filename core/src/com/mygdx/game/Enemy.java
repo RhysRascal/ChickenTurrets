@@ -8,6 +8,9 @@ public class Enemy {
     int width, height;
     int damage;
     int level;
+    float movespeed;
+    Enum immunities;
+    Enum weaknesses;
 
 
 
