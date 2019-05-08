@@ -5,8 +5,8 @@ import com.mygdx.game.Abilties;
 
 public class Enemy {
 
-    int x;
-    int y;
+    float x;
+    float y;
     int health;
     int width, height;
     int damage;
@@ -17,7 +17,7 @@ public class Enemy {
     Enum weaknesses;
 
     public Enemy(int health, int width, int height, int damage, int level, float movespeed, Texture sprite,
-    int x, int y) {
+    float x, float y) {
         this.health = health;
         this.width = width;
         this.height = height;
