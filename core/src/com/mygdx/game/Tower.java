@@ -20,5 +20,7 @@ public class Tower {
         this.ability = ability;
         this.xp = xp;
         this.image = image;
+        this.x = x;
+        this.y = y;
     }
 }
